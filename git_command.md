@@ -1,1 +1,3 @@
 1. 重命名本地仓库 git branch -m oldname newname
+2. 将文件添加到暂存区 git add xxx xxx xxx ...
+3. 将暂存区的修改提交 git commit -m "xxxxxx"
