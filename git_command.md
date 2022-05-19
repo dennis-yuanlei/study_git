@@ -3,4 +3,6 @@
 3. 将暂存区的修改提交 git commit -m "xxxxxx"
 4. 查看最近3条修改记录(会显示commit id和commit信息) git log; git reflog显示全部
 5. 回退到当前版本的上一个版本 git reset --hard HEAD^
-6. 回退到指定commit id版本 git reset --hard id
+6. 回退到指定commit id版本 git reset --hard commit_id
+7. 撤销工作区的修改 git checkout -- test.md
+8. 
