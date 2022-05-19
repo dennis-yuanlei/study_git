@@ -5,4 +5,4 @@
 5. 回退到当前版本的上一个版本 git reset --hard HEAD^
 6. 回退到指定commit id版本 git reset --hard commit_id
 7. 撤销工作区的修改 git checkout -- test.md
-8. 
+8. 删除文件,先在工作区中删除, 然后 git rm test.md; git commit; 想取消删除可以使用 git checkout --
