@@ -1,0 +1,1 @@
+1. 重命名本地仓库 git branch -m oldname newname
