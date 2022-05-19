@@ -11,3 +11,8 @@
 11. 关联后，只要本地commit后, git push origin main即可push到远程仓库(orgin代指远程主机名，main是分支名)
 12. 查看远程库代号(一般为origin) git remote -v
 13. 解除本地库与远程库的关联 git remote rm origin
+14. 创建分支git checkout dev; 创建并切换分支 git checkout -b dev
+15. 查看当前分支 git branch
+16. 将dev分支合并到master分支->将master指针指向dev分支 git checkout master, git merge dev
+17. 删除dev分支 git branch -d dev
+18. 查看分支合并图 git log --graph
