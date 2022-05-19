@@ -9,4 +9,5 @@
 9. 重命名分支 git branch -M newname
 10. 与远程仓库关联, 鼠标在github创建仓库，根据指示push所有即可, git remote add origin https:...; git push -u origin main
 11. 关联后，只要本地commit后, git push origin main即可push到远程仓库(orgin代指远程主机名，main是分支名)
+12. 查看远程库代号(一般为origin) git remote -v
 12. 解除本地库与远程库的关联 git remote rm origin
